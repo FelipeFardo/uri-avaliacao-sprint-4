@@ -1,0 +1,31 @@
+{
+  "name": "botflavorria",
+  "version": "1.0.0",
+  "description": "Para o projeto final é esperado que o Bot de flavorria esteja funcionando com todas as integrações funcionando na api que vocês precisaram criar, conseguindo possibilitar que um usuário faça seus pedidos e consulte seus pedidos como uma espécie de histórico de pedidos, junto com isso conte também com a pesquisa de CEP do usuário, para fazer as entregas ao destinatário e no final conclua o pedido do usuário.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeFardo/BotFlavorria.git"
+  },
+  "author": "Felipe Fardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeFardo/BotFlavorria/issues"
+  },
+  "homepage": "https://github.com/FelipeFardo/BotFlavorria#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
